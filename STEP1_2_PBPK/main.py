@@ -77,7 +77,7 @@ dim_to_resize = 224
 
 loader_opts = {'batch_size': batch_size, 'num_workers': 0, 'pin_memory': True} 
 classes = ['benign', 'malignant']
-basePath = 'D:/LavoroJBHI_PBPK_DAE/PUBLIC_DATA/'
+basePath = 'PUBLIC_DATA/'
 
 pathToRealData = basePath + 'FINAL_DATASET/'
 pathTocsv = basePath
